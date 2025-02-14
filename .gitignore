@@ -1,3 +1,4 @@
+APP_TCGA/
 # Excluir archivos de imágenes y formatos binarios
 *.png
 *.bmp
