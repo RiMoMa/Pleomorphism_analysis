@@ -1,0 +1,1226 @@
+[
+  {
+    "meta": {
+      "id": 139977849370304,
+      "label": "S1"
+    },
+    "donors": [
+      {
+        "time": 1,
+        "censored": false,
+        "survivalEstimate": 1,
+        "id": "ee554215-bea2-4268-aaf9-784e68cdb969",
+        "submitter_id": "TCGA-BH-A1F8",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 30,
+        "censored": false,
+        "survivalEstimate": 0.993421052631579,
+        "id": "8bd68696-5eeb-46d7-9dc6-c39c849029a4",
+        "submitter_id": "TCGA-A8-A08L",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 116,
+        "censored": false,
+        "survivalEstimate": 0.9868421052631579,
+        "id": "45013972-2dfd-4f82-a076-e3e4af1b43b8",
+        "submitter_id": "TCGA-UU-A93S",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 158,
+        "censored": false,
+        "survivalEstimate": 0.9802631578947367,
+        "id": "332423a7-8866-4ee3-b08f-3c8d7c16af80",
+        "submitter_id": "TCGA-A2-A0CU",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 160,
+        "censored": false,
+        "survivalEstimate": 0.9736842105263157,
+        "id": "d1703dbd-5c93-4cf2-a4d1-0d90640882bd",
+        "submitter_id": "TCGA-AR-A0TR",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 172,
+        "censored": false,
+        "survivalEstimate": 0.9671052631578946,
+        "id": "d0b78f3f-a198-437a-ab8c-204345d3b75d",
+        "submitter_id": "TCGA-AQ-A0Y5",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 197,
+        "censored": false,
+        "survivalEstimate": 0.9605263157894736,
+        "id": "fac173a8-1613-4bd4-87ba-83a2cfe8a37d",
+        "submitter_id": "TCGA-AC-A3EH",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 224,
+        "censored": false,
+        "survivalEstimate": 0.9539473684210524,
+        "id": "30ec8b1f-28c4-4f46-8a1b-a8d51e558c7d",
+        "submitter_id": "TCGA-BH-A18T",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 226,
+        "censored": false,
+        "survivalEstimate": 0.9473684210526314,
+        "id": "ceb41bc0-5d1e-4120-8325-48aa08871d77",
+        "submitter_id": "C685110",
+        "project_id": "CPTAC-3"
+      },
+      {
+        "time": 227,
+        "censored": false,
+        "survivalEstimate": 0.9407894736842104,
+        "id": "3e637872-f5e5-49d3-bb0d-9c16b8713382",
+        "submitter_id": "TCGA-LL-A73Z",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 239,
+        "censored": false,
+        "survivalEstimate": 0.9342105263157894,
+        "id": "359f12f9-5c41-48a4-85bc-fd7e307bf7d8",
+        "submitter_id": "TCGA-EW-A1P8",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 255,
+        "censored": false,
+        "survivalEstimate": 0.9276315789473684,
+        "id": "128d198e-9b22-427c-90db-3714455f3a17",
+        "submitter_id": "TCGA-A2-A0T2",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 266,
+        "censored": false,
+        "survivalEstimate": 0.9210526315789473,
+        "id": "1d27253f-b036-44e7-a04d-8da5bbf57419",
+        "submitter_id": "TCGA-E2-A1LK",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 295,
+        "censored": false,
+        "survivalEstimate": 0.9144736842105263,
+        "id": "5f4d16aa-9cc4-4edb-b714-394e2661439a",
+        "submitter_id": "TCGA-BH-A8FY",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 302,
+        "censored": false,
+        "survivalEstimate": 0.9078947368421053,
+        "id": "38a631a1-6875-4216-a335-ee93c90a86d6",
+        "submitter_id": "TCGA-D8-A1Y1",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 320,
+        "censored": false,
+        "survivalEstimate": 0.9013157894736842,
+        "id": "10c829ec-fd66-49c4-8afe-ad3ae567372c",
+        "submitter_id": "TCGA-BH-A42T",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 322,
+        "censored": false,
+        "survivalEstimate": 0.8947368421052632,
+        "id": "3af31fcf-ad0c-4fd9-a8e3-10f9176b5e9d",
+        "submitter_id": "TCGA-AR-A5QQ",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 336,
+        "censored": false,
+        "survivalEstimate": 0.8881578947368421,
+        "id": "59be60a3-e0f6-4d63-b98c-574ef92428c4",
+        "submitter_id": "TCGA-E2-A15M",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 348,
+        "censored": false,
+        "survivalEstimate": 0.8815789473684211,
+        "id": "d5f2b85a-94a9-4168-bbe8-149ec71342b0",
+        "submitter_id": "TCGA-AC-A62V",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 362,
+        "censored": false,
+        "survivalEstimate": 0.8750000000000001,
+        "id": "44954053-0b93-4577-a436-42777e442300",
+        "submitter_id": "TCGA-B6-A0I9",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 365,
+        "censored": false,
+        "survivalEstimate": 0.868421052631579,
+        "id": "417dea5f-f68e-4dab-940e-43ae8c67e5e6",
+        "submitter_id": "TCGA-BH-A1EV",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 377,
+        "censored": false,
+        "survivalEstimate": 0.861842105263158,
+        "id": "ee14e049-b891-4dda-a730-8ce99bd93baf",
+        "submitter_id": "TCGA-D8-A1XC",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 385,
+        "censored": false,
+        "survivalEstimate": 0.855263157894737,
+        "id": "ea8dbc7a-54c6-469c-865e-f49d00b0223d",
+        "submitter_id": "TCGA-D8-A73W",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 385,
+        "censored": false,
+        "survivalEstimate": 0.855263157894737,
+        "id": "a824b3bd-34d5-4cc1-a92f-f9d6ac0f1814",
+        "submitter_id": "TCGA-C8-A12Q",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 393,
+        "censored": false,
+        "survivalEstimate": 0.8421052631578949,
+        "id": "0bbe1b04-f582-453c-9070-7aafc07912fe",
+        "submitter_id": "HCM-CSHL-0366-C50",
+        "project_id": "HCMI-CMDC"
+      },
+      {
+        "time": 426,
+        "censored": false,
+        "survivalEstimate": 0.8355263157894739,
+        "id": "27b05b15-a44b-45ed-a6e3-e7d1ca488ea9",
+        "submitter_id": "TCGA-A8-A09X",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 446,
+        "censored": false,
+        "survivalEstimate": 0.8289473684210529,
+        "id": "d9fd2724-7db0-4af3-ac14-217bdfa5203f",
+        "submitter_id": "TCGA-AC-A2QJ",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 468,
+        "censored": false,
+        "survivalEstimate": 0.8223684210526319,
+        "id": "665dd3d3-779c-4abd-b5d7-13342340451d",
+        "submitter_id": "TCGA-BH-A18N",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 524,
+        "censored": false,
+        "survivalEstimate": 0.8157894736842108,
+        "id": "eda6d2d5-4199-4f76-a45b-1d0401b4e54c",
+        "submitter_id": "TCGA-AR-A1AR",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 538,
+        "censored": false,
+        "survivalEstimate": 0.8092105263157898,
+        "id": "0741b5db-4405-42ba-b63a-c6ee4f341480",
+        "submitter_id": "TCGA-BH-A1EY",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 548,
+        "censored": false,
+        "survivalEstimate": 0.8026315789473687,
+        "id": "ccd4a24b-d8cc-4686-9dee-c98b0c5a8d21",
+        "submitter_id": "TCGA-A2-A04P",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 558,
+        "censored": false,
+        "survivalEstimate": 0.7960526315789477,
+        "id": "f02931f8-d72a-481d-b532-8b141dab115f",
+        "submitter_id": "TCGA-B6-A0WW",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 563,
+        "censored": false,
+        "survivalEstimate": 0.7894736842105267,
+        "id": "d7ce6b79-f7c0-481e-9dbd-6273f01c9786",
+        "submitter_id": "TCGA-E2-A14Z",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 571,
+        "censored": false,
+        "survivalEstimate": 0.7828947368421056,
+        "id": "0491063c-14a7-4104-8002-1459126332f3",
+        "submitter_id": "TCGA-B6-A0IK",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 573,
+        "censored": false,
+        "survivalEstimate": 0.7763157894736846,
+        "id": "5362cbc4-cd28-4afd-a8ac-1a4c2c33cad2",
+        "submitter_id": "TCGA-B6-A409",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 577,
+        "censored": false,
+        "survivalEstimate": 0.7697368421052636,
+        "id": "d4e7426c-9739-4585-9114-e564b13c7c02",
+        "submitter_id": "TCGA-BH-A1FG",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 584,
+        "censored": false,
+        "survivalEstimate": 0.7631578947368426,
+        "id": "19015644-9c17-4ae7-a656-0fe8623c04ae",
+        "submitter_id": "TCGA-AQ-A7U7",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 612,
+        "censored": false,
+        "survivalEstimate": 0.7565789473684216,
+        "id": "cc074b7f-d3b2-4880-902e-bf10e667b665",
+        "submitter_id": "TCGA-BH-A18J",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 614,
+        "censored": false,
+        "survivalEstimate": 0.7500000000000006,
+        "id": "8c7e74e0-71ef-49b8-9217-94b8ef740ef9",
+        "submitter_id": "TCGA-A7-A13E",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 616,
+        "censored": false,
+        "survivalEstimate": 0.7434210526315794,
+        "id": "376ffe63-efd7-42af-90e1-261255b28bb7",
+        "submitter_id": "TCGA-AR-A2LH",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 639,
+        "censored": false,
+        "survivalEstimate": 0.7368421052631584,
+        "id": "a482fc4c-ff1d-46a0-a968-7df06422cc4b",
+        "submitter_id": "TCGA-B6-A0WX",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 678,
+        "censored": false,
+        "survivalEstimate": 0.7302631578947374,
+        "id": "955d4263-61f7-42e8-8a6e-772a0d6c209d",
+        "submitter_id": "TCGA-E9-A1N6",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 723,
+        "censored": false,
+        "survivalEstimate": 0.7236842105263164,
+        "id": "14b95463-2108-4921-afc2-e29eef52b18f",
+        "submitter_id": "TCGA-A2-A0YT",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 749,
+        "censored": false,
+        "survivalEstimate": 0.7171052631578954,
+        "id": "6e6408d6-6c48-4dfc-9f1c-28b7386e87b4",
+        "submitter_id": "TCGA-B6-A0I8",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 754,
+        "censored": false,
+        "survivalEstimate": 0.7105263157894743,
+        "id": "eb2dbb4f-66b6-4525-8323-431970f7a64e",
+        "submitter_id": "TCGA-A2-A0CM",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 785,
+        "censored": false,
+        "survivalEstimate": 0.7039473684210532,
+        "id": "21ef1730-e5a7-47ce-b419-d000bb59ae15",
+        "submitter_id": "TCGA-BH-A1F0",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 786,
+        "censored": false,
+        "survivalEstimate": 0.6973684210526322,
+        "id": "659b0170-e914-45ff-aa55-fcb8d3dc7b8a",
+        "submitter_id": "TCGA-E9-A1NG",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 792,
+        "censored": false,
+        "survivalEstimate": 0.6907894736842112,
+        "id": "b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e",
+        "submitter_id": "TCGA-AC-A2FM",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 792,
+        "censored": false,
+        "survivalEstimate": 0.6907894736842112,
+        "id": "c1442467-d618-435f-8792-b1a18f696f1a",
+        "submitter_id": "TCGA-AO-A0J5",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 811,
+        "censored": false,
+        "survivalEstimate": 0.677631578947369,
+        "id": "9ddc3e7b-8b54-4a83-8335-8053940f56c1",
+        "submitter_id": "TCGA-BH-A18L",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 821,
+        "censored": false,
+        "survivalEstimate": 0.671052631578948,
+        "id": "f0de67ff-8967-4fce-9c12-0e07193285cd",
+        "submitter_id": "TCGA-E2-A2P5",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 825,
+        "censored": false,
+        "survivalEstimate": 0.664473684210527,
+        "id": "ad01259b-d858-40bc-a6ba-0bb06e996afb",
+        "submitter_id": "TCGA-A2-A0SV",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 860,
+        "censored": false,
+        "survivalEstimate": 0.657894736842106,
+        "id": "4e42fdc5-2a8b-49e9-87ef-6db7a6692d08",
+        "submitter_id": "TCGA-B6-A0X4",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 879,
+        "censored": false,
+        "survivalEstimate": 0.651315789473685,
+        "id": "7317e605-93ba-49a9-8743-20613b02767a",
+        "submitter_id": "TCGA-E2-A1LE",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 883,
+        "censored": false,
+        "survivalEstimate": 0.6447368421052639,
+        "id": "6bc4c56d-aac5-49a2-9913-9538d06d898f",
+        "submitter_id": "TCGA-A8-A06U",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 904,
+        "censored": false,
+        "survivalEstimate": 0.6381578947368429,
+        "id": "4a831893-f4ca-4357-a756-b5e954e35dd7",
+        "submitter_id": "TCGA-E9-A2JS",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 906,
+        "censored": true,
+        "survivalEstimate": 0.6315789473684219,
+        "id": "cb9f5e50-f49d-4899-8895-9367afcc1015",
+        "submitter_id": "TCGA-A7-A0DC",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 912,
+        "censored": false,
+        "survivalEstimate": 0.6315789473684219,
+        "id": "a8e7d8a4-bbf0-496b-b387-8e014cfdcea6",
+        "submitter_id": "TCGA-A2-A3XU",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 921,
+        "censored": false,
+        "survivalEstimate": 0.6249307479224385,
+        "id": "557cb0a3-6f1b-4faf-8296-0a15c24158f9",
+        "submitter_id": "TCGA-BH-A18P",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 943,
+        "censored": false,
+        "survivalEstimate": 0.6182825484764551,
+        "id": "70931617-b3df-4a12-8e3f-2b2307602f48",
+        "submitter_id": "TCGA-A8-A06X",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 959,
+        "censored": false,
+        "survivalEstimate": 0.6116343490304718,
+        "id": "6a2972e3-cca9-47e5-aac0-b770f2399eeb",
+        "submitter_id": "TCGA-BH-A1F2",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 967,
+        "censored": false,
+        "survivalEstimate": 0.6049861495844884,
+        "id": "a5b44d66-c162-46b5-9df2-86305f0385c5",
+        "submitter_id": "TCGA-A1-A0SK",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 976,
+        "censored": false,
+        "survivalEstimate": 0.598337950138505,
+        "id": "94b95984-b2fb-4e42-8887-45e7086c3179",
+        "submitter_id": "TCGA-E9-A1RB",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 991,
+        "censored": false,
+        "survivalEstimate": 0.5916897506925216,
+        "id": "1f601832-eee3-48fb-acf5-80c4a454f26e",
+        "submitter_id": "TCGA-BH-A0EA",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 991,
+        "censored": false,
+        "survivalEstimate": 0.5916897506925216,
+        "id": "045c13ef-3db7-4adf-b0a3-23338f0479f3",
+        "submitter_id": "TCGA-B6-A0I6",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1004,
+        "censored": false,
+        "survivalEstimate": 0.5783933518005548,
+        "id": "dbb2da92-99dd-400c-bc05-e87d7273656c",
+        "submitter_id": "TCGA-E2-A1B4",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1009,
+        "censored": false,
+        "survivalEstimate": 0.5717451523545715,
+        "id": "3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6",
+        "submitter_id": "TCGA-BH-A1FD",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1032,
+        "censored": false,
+        "survivalEstimate": 0.5650969529085881,
+        "id": "a78b04b4-2380-4803-963e-e4e633cd69ab",
+        "submitter_id": "TCGA-A2-A3XS",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1034,
+        "censored": false,
+        "survivalEstimate": 0.5584487534626047,
+        "id": "959ff069-8a49-4c9b-85c2-5291cac0acff",
+        "submitter_id": "TCGA-C8-A3M7",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1034,
+        "censored": false,
+        "survivalEstimate": 0.5584487534626047,
+        "id": "1783cac1-253a-40af-a9ac-48dfb20e1ab8",
+        "submitter_id": "TCGA-BH-A1FH",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1048,
+        "censored": false,
+        "survivalEstimate": 0.5451523545706379,
+        "id": "dd67408e-46ba-4573-9415-d4814e9f84de",
+        "submitter_id": "TCGA-E9-A226",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1072,
+        "censored": false,
+        "survivalEstimate": 0.5385041551246545,
+        "id": "a8b1f6e7-2bcf-460d-b1c6-1792a9801119",
+        "submitter_id": "TCGA-E9-A1NF",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1093,
+        "censored": false,
+        "survivalEstimate": 0.5318559556786712,
+        "id": "deba32e4-0e68-4711-941b-3b63bd965afb",
+        "submitter_id": "TCGA-A2-A3XY",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1104,
+        "censored": false,
+        "survivalEstimate": 0.5252077562326878,
+        "id": "c3a981c7-f148-4252-bd50-af8a49ec0df8",
+        "submitter_id": "TCGA-OL-A5D6",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1127,
+        "censored": false,
+        "survivalEstimate": 0.5185595567867044,
+        "id": "68177e92-4784-45d9-af14-4ce0c00eae74",
+        "submitter_id": "TCGA-A8-A08J",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1142,
+        "censored": false,
+        "survivalEstimate": 0.511911357340721,
+        "id": "f6e1ec78-5ad9-4879-9b7e-262d17b166ad",
+        "submitter_id": "TCGA-BH-A18R",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1152,
+        "censored": false,
+        "survivalEstimate": 0.5052631578947376,
+        "id": "9434687a-197c-4959-b6b8-9c05f1dd7f53",
+        "submitter_id": "TCGA-B6-A3ZX",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1174,
+        "censored": false,
+        "survivalEstimate": 0.4986149584487542,
+        "id": "b3264748-947a-43aa-b227-b294fbcc8447",
+        "submitter_id": "TCGA-BH-A203",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1272,
+        "censored": false,
+        "survivalEstimate": 0.4919667590027708,
+        "id": "4d26dada-5eb7-4d4e-8eb8-f5465c5c3428",
+        "submitter_id": "TCGA-AR-A1AT",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1275,
+        "censored": false,
+        "survivalEstimate": 0.48531855955678743,
+        "id": "2ab1b35b-9e56-475c-ac9b-15ed0a422683",
+        "submitter_id": "TCGA-OL-A66K",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1286,
+        "censored": false,
+        "survivalEstimate": 0.478670360110804,
+        "id": "a1093598-d3a8-4ffe-83fc-bc7d1faff7e5",
+        "submitter_id": "TCGA-BH-A1EU",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1324,
+        "censored": false,
+        "survivalEstimate": 0.4720221606648206,
+        "id": "e6b79d7a-ed6b-459a-b040-d142616e7ab4",
+        "submitter_id": "TCGA-BH-A0BF",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1365,
+        "censored": false,
+        "survivalEstimate": 0.46537396121883723,
+        "id": "991e1427-3c01-423d-abfd-4584302ca72c",
+        "submitter_id": "TCGA-A2-A0SW",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1388,
+        "censored": false,
+        "survivalEstimate": 0.45872576177285385,
+        "id": "7eb18190-5a41-4637-9783-f81bbde499e4",
+        "submitter_id": "TCGA-BH-A1FM",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1411,
+        "censored": false,
+        "survivalEstimate": 0.45207756232687046,
+        "id": "d10a4887-373b-4726-a61d-126f950e4a06",
+        "submitter_id": "TCGA-BH-A0C1",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1430,
+        "censored": false,
+        "survivalEstimate": 0.4454293628808871,
+        "id": "76099beb-0abe-4b56-8b4e-e4485e0402e6",
+        "submitter_id": "TCGA-PE-A5DC",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1439,
+        "censored": false,
+        "survivalEstimate": 0.4387811634349037,
+        "id": "53886143-c1c6-40e9-88e6-e4e5e0271fc8",
+        "submitter_id": "TCGA-A2-A3XX",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1468,
+        "censored": false,
+        "survivalEstimate": 0.4321329639889203,
+        "id": "8e54232d-d8bb-4612-8b0e-4feb076a60f9",
+        "submitter_id": "TCGA-A2-A0CO",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1508,
+        "censored": false,
+        "survivalEstimate": 0.42548476454293693,
+        "id": "7b892055-c59d-4550-8688-ad039790af3d",
+        "submitter_id": "TCGA-BH-A1EX",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1556,
+        "censored": false,
+        "survivalEstimate": 0.41883656509695355,
+        "id": "6b960b58-28e1-41c6-bd6e-7e669c6aa4ef",
+        "submitter_id": "TCGA-BH-A18V",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1563,
+        "censored": false,
+        "survivalEstimate": 0.4121883656509701,
+        "id": "233b02f3-c4f0-4a67-9db5-e68d5cdaccb6",
+        "submitter_id": "TCGA-BH-A18U",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1642,
+        "censored": false,
+        "survivalEstimate": 0.40554016620498673,
+        "id": "bf3b1481-ae31-4406-b084-b6cc1d7163e3",
+        "submitter_id": "TCGA-BH-A1FR",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1649,
+        "censored": false,
+        "survivalEstimate": 0.39889196675900335,
+        "id": "1b703058-e596-45bc-80fe-8b98d545c2e2",
+        "submitter_id": "TCGA-AR-A2LK",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1673,
+        "censored": false,
+        "survivalEstimate": 0.39224376731301996,
+        "id": "14d1d84e-99e1-41ad-8892-3b4da3d4f948",
+        "submitter_id": "TCGA-BH-A1FL",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1688,
+        "censored": false,
+        "survivalEstimate": 0.3855955678670366,
+        "id": "c348a9b3-c901-4384-a222-144387bac0c5",
+        "submitter_id": "TCGA-BH-A1FU",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1692,
+        "censored": false,
+        "survivalEstimate": 0.3789473684210532,
+        "id": "db4bc6aa-2e7d-4bcb-8519-a455f624d33b",
+        "submitter_id": "TCGA-BH-A18Q",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1694,
+        "censored": false,
+        "survivalEstimate": 0.3722991689750698,
+        "id": "9d166970-07c8-4ca3-9cfa-ed0049df9ecc",
+        "submitter_id": "TCGA-BH-A1EW",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1699,
+        "censored": false,
+        "survivalEstimate": 0.36565096952908643,
+        "id": "da1c58a7-c6bd-47d9-95c2-8d2ac70e20e4",
+        "submitter_id": "TCGA-AR-A0TY",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1759,
+        "censored": false,
+        "survivalEstimate": 0.35900277008310305,
+        "id": "ddcbdac6-9e43-4146-a611-d033125eba14",
+        "submitter_id": "TCGA-BH-A208",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1781,
+        "censored": false,
+        "survivalEstimate": 0.35235457063711967,
+        "id": "5b9a5cd2-5ec8-48a0-b9f2-da9bede0b089",
+        "submitter_id": "TCGA-B6-A0X7",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1793,
+        "censored": false,
+        "survivalEstimate": 0.3457063711911363,
+        "id": "0685edd2-ce1c-4e0e-8dda-393139af4223",
+        "submitter_id": "TCGA-AO-A03U",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1812,
+        "censored": false,
+        "survivalEstimate": 0.3390581717451529,
+        "id": "1133b8a9-6b11-4511-b70a-f200e3b8b5db",
+        "submitter_id": "TCGA-GM-A2D9",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1884,
+        "censored": false,
+        "survivalEstimate": 0.3324099722991695,
+        "id": "8d5fe6e8-d2cc-481f-a6a1-9cb6e7982cde",
+        "submitter_id": "TCGA-A2-A0EW",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1900,
+        "censored": false,
+        "survivalEstimate": 0.32576177285318614,
+        "id": "61204cdf-3b1c-44a1-bda6-0fef1ac4a333",
+        "submitter_id": "TCGA-HN-A2OB",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1920,
+        "censored": false,
+        "survivalEstimate": 0.31911357340720276,
+        "id": "64f67506-f2df-4f0a-b7be-29b4949e986a",
+        "submitter_id": "TCGA-A2-A04V",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1927,
+        "censored": false,
+        "survivalEstimate": 0.3124653739612194,
+        "id": "f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74",
+        "submitter_id": "TCGA-BH-A1FJ",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 1993,
+        "censored": false,
+        "survivalEstimate": 0.305817174515236,
+        "id": "3f834fa7-6d7b-4b85-98c0-5c55d55b6c95",
+        "submitter_id": "TCGA-B6-A0IE",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2009,
+        "censored": false,
+        "survivalEstimate": 0.2991689750692526,
+        "id": "433427a1-bacf-4381-91ba-5fec8a0953f9",
+        "submitter_id": "TCGA-BH-A18S",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2097,
+        "censored": false,
+        "survivalEstimate": 0.2925207756232692,
+        "id": "4e6edfe6-adcb-4c12-8ff4-38a79f5887e8",
+        "submitter_id": "TCGA-B6-A0X5",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2127,
+        "censored": false,
+        "survivalEstimate": 0.28587257617728584,
+        "id": "858652b8-c4c2-41d8-be32-fdc88e1a7bb0",
+        "submitter_id": "TCGA-BH-A1EN",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2192,
+        "censored": false,
+        "survivalEstimate": 0.27922437673130246,
+        "id": "6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca",
+        "submitter_id": "TCGA-BH-A1FN",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2207,
+        "censored": false,
+        "survivalEstimate": 0.2725761772853191,
+        "id": "f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba",
+        "submitter_id": "TCGA-BH-A18M",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2273,
+        "censored": false,
+        "survivalEstimate": 0.2659279778393357,
+        "id": "4aa68586-6331-4795-b40c-859386640df6",
+        "submitter_id": "TCGA-BH-A1FE",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2296,
+        "censored": false,
+        "survivalEstimate": 0.2592797783933523,
+        "id": "f251cb6c-d18e-4691-9c82-24ed1ac0abf9",
+        "submitter_id": "TCGA-BH-A0BP",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2348,
+        "censored": false,
+        "survivalEstimate": 0.25263157894736893,
+        "id": "d071c16b-7cee-45ed-8ec9-612418143815",
+        "submitter_id": "TCGA-A2-A0CS",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2361,
+        "censored": false,
+        "survivalEstimate": 0.24598337950138555,
+        "id": "5dd423e8-feaa-4568-a750-500948c41d6c",
+        "submitter_id": "TCGA-B6-A0I1",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2373,
+        "censored": false,
+        "survivalEstimate": 0.23933518005540216,
+        "id": "151f3677-6854-4265-9126-d92c646c67ae",
+        "submitter_id": "TCGA-B6-A0RM",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2417,
+        "censored": false,
+        "survivalEstimate": 0.23268698060941878,
+        "id": "7588a286-6935-424a-bc5f-92e24c83eb37",
+        "submitter_id": "TCGA-B6-A0WV",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2469,
+        "censored": false,
+        "survivalEstimate": 0.2260387811634354,
+        "id": "5562455d-bbb8-46eb-a510-e8c6e1e26789",
+        "submitter_id": "TCGA-B6-A0RL",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2483,
+        "censored": false,
+        "survivalEstimate": 0.21939058171745202,
+        "id": "1111fb30-46ce-4722-98da-ec9ba2323d90",
+        "submitter_id": "TCGA-AO-A03O",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2520,
+        "censored": false,
+        "survivalEstimate": 0.21274238227146863,
+        "id": "8986a141-eae7-4157-b695-02cc6fc3b071",
+        "submitter_id": "TCGA-BH-A1ET",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2534,
+        "censored": false,
+        "survivalEstimate": 0.20609418282548525,
+        "id": "05135396-df5c-49db-b34e-f4add5b65a2b",
+        "submitter_id": "TCGA-BH-A204",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2551,
+        "censored": false,
+        "survivalEstimate": 0.19944598337950187,
+        "id": "9ad603dc-3fd0-44f5-ae4e-64eeb1ae8d6d",
+        "submitter_id": "TCGA-AR-A0U2",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2573,
+        "censored": false,
+        "survivalEstimate": 0.19279778393351849,
+        "id": "16a8d916-ad46-4690-b1a5-3b2b323f4336",
+        "submitter_id": "TCGA-B6-A0IN",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2636,
+        "censored": false,
+        "survivalEstimate": 0.1861495844875351,
+        "id": "f6eebd4b-b63a-4a9c-92d3-0d954a8a6655",
+        "submitter_id": "TCGA-AC-A2FE",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2712,
+        "censored": false,
+        "survivalEstimate": 0.17950138504155172,
+        "id": "e663954c-05a8-479a-a623-400c1eb5efc6",
+        "submitter_id": "TCGA-BH-A1F5",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2763,
+        "censored": false,
+        "survivalEstimate": 0.1728531855955683,
+        "id": "50619f8c-10aa-464a-a227-90a7aa6ffd43",
+        "submitter_id": "TCGA-BH-A18K",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2798,
+        "censored": false,
+        "survivalEstimate": 0.16620498614958493,
+        "id": "4510295e-8aa7-4ef1-b2b7-91cc902f8200",
+        "submitter_id": "TCGA-BH-A1EO",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2854,
+        "censored": false,
+        "survivalEstimate": 0.15955678670360152,
+        "id": "d3d545b3-457f-4389-821f-704cb24aff7f",
+        "submitter_id": "TCGA-AR-A256",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2866,
+        "censored": false,
+        "survivalEstimate": 0.15290858725761813,
+        "id": "de646f6a-6d50-4be2-b3cd-f17554b234df",
+        "submitter_id": "TCGA-AR-A24L",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2911,
+        "censored": false,
+        "survivalEstimate": 0.14626038781163475,
+        "id": "2d4c778c-7f77-4f0a-8261-2086accf15fd",
+        "submitter_id": "TCGA-AO-A03P",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2965,
+        "censored": false,
+        "survivalEstimate": 0.13961218836565137,
+        "id": "2476dda9-da2a-4242-9642-b92b8b9b1c79",
+        "submitter_id": "TCGA-B6-A0IH",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2965,
+        "censored": false,
+        "survivalEstimate": 0.13961218836565137,
+        "id": "197741de-a098-4f04-bb37-8ea8b3bb39bc",
+        "submitter_id": "TCGA-B6-A0WS",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 2965,
+        "censored": false,
+        "survivalEstimate": 0.13961218836565137,
+        "id": "ad18820b-a804-49c0-ba8a-86c09fa6bce2",
+        "submitter_id": "TCGA-BH-A1F6",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3063,
+        "censored": false,
+        "survivalEstimate": 0.11966759002770117,
+        "id": "9416ff9b-6f29-4554-b04d-b537a3ae3969",
+        "submitter_id": "TCGA-B6-A0RS",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3126,
+        "censored": false,
+        "survivalEstimate": 0.11301939058171777,
+        "id": "451e1a67-47e6-4738-99d7-fb7771ef61a3",
+        "submitter_id": "TCGA-B6-A0RP",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3262,
+        "censored": false,
+        "survivalEstimate": 0.10637119113573437,
+        "id": "c7c34fd9-3021-45b7-b6ff-30b4196585a8",
+        "submitter_id": "TCGA-AR-A0TZ",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3409,
+        "censored": false,
+        "survivalEstimate": 0.09972299168975098,
+        "id": "32bc7cc4-d185-4594-bbee-4b96410be512",
+        "submitter_id": "TCGA-A8-A08T",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3461,
+        "censored": false,
+        "survivalEstimate": 0.09307479224376758,
+        "id": "f475d460-75cd-4fe9-aa54-c90be12b4ef8",
+        "submitter_id": "TCGA-B6-A0WY",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3462,
+        "censored": false,
+        "survivalEstimate": 0.08642659279778418,
+        "id": "51ccbf1b-7cae-44ba-991a-11eda8b8c404",
+        "submitter_id": "TCGA-BH-A1ES",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3472,
+        "censored": false,
+        "survivalEstimate": 0.07977839335180079,
+        "id": "b97bf89a-7a85-4eef-ae7e-f787aead1f0a",
+        "submitter_id": "TCGA-BH-A1FC",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3669,
+        "censored": false,
+        "survivalEstimate": 0.07313019390581739,
+        "id": "ecab16bc-28d5-4c3a-8735-3c785bd047c4",
+        "submitter_id": "TCGA-BH-A1FB",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3873,
+        "censored": false,
+        "survivalEstimate": 0.06648199445983399,
+        "id": "5a4b7098-1f6a-49e9-b364-29d6d34f5bd5",
+        "submitter_id": "TCGA-B6-A0IM",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3926,
+        "censored": false,
+        "survivalEstimate": 0.059833795013850596,
+        "id": "1402082d-25c9-4148-8a1e-f58450b706bb",
+        "submitter_id": "TCGA-B6-A0IP",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3941,
+        "censored": false,
+        "survivalEstimate": 0.05318559556786719,
+        "id": "157ec9e0-ca6e-4da1-9233-f976cf0db433",
+        "submitter_id": "TCGA-B6-A0IB",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3945,
+        "censored": false,
+        "survivalEstimate": 0.046537396121883796,
+        "id": "1e68e760-a4cf-4100-bf9c-e50fa8d126f6",
+        "submitter_id": "TCGA-B6-A0X0",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 3959,
+        "censored": false,
+        "survivalEstimate": 0.03988919667590039,
+        "id": "5258294f-ef5b-4091-9183-6bcc545d54b2",
+        "submitter_id": "TCGA-BH-A209",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 4267,
+        "censored": false,
+        "survivalEstimate": 0.033240997229916996,
+        "id": "caa9b533-24b4-4ecd-9159-c165de049f6a",
+        "submitter_id": "TCGA-B6-A0RQ",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 4456,
+        "censored": false,
+        "survivalEstimate": 0.0265927977839336,
+        "id": "34ab0cb8-bf19-4cbb-b4eb-3c45ee5aa60b",
+        "submitter_id": "TCGA-B6-A0IG",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 6456,
+        "censored": false,
+        "survivalEstimate": 0.0199445983379502,
+        "id": "c3148e68-1739-4334-abda-1dcbc2166846",
+        "submitter_id": "TCGA-B6-A0RH",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 6593,
+        "censored": false,
+        "survivalEstimate": 0.0132963988919668,
+        "id": "c07b122e-ac50-4db2-add2-5617a5d0e976",
+        "submitter_id": "TCGA-GM-A2DA",
+        "project_id": "TCGA-BRCA"
+      },
+      {
+        "time": 7455,
+        "censored": false,
+        "survivalEstimate": 0.0066481994459834,
+        "id": "178b2c48-c07d-422e-ae17-8bcfd996ad51",
+        "submitter_id": "TCGA-B6-A0X1",
+        "project_id": "TCGA-BRCA"
+      }
+    ]
+  }
+]

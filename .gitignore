@@ -1,0 +1,16 @@
+# Excluir archivos de imágenes y formatos binarios
+*.png
+*.bmp
+*.svs
+*.tiff
+*.jpg
+*.jpeg
+
+# Excluir directorios que no deben subirse
+data/images/
+logs/
+
+# Excluir archivos de caché y dependencias de Python
+__pycache__/
+*.log
+*.sqlite
