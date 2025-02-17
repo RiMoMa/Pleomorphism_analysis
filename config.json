@@ -1,17 +1,17 @@
 {
-    "INPUT_DIR": "Project_Plemorfismo/Pleomorfismo/data/images/DX1_svs",
-    "OUTPUT_DIR": "Project_Plemorfismo/Pleomorfismo/data/images_processed/DX1_processed",
+    "INPUT_DIR": "data/images/DX1_svs",
+    "OUTPUT_DIR": "data/images_processed/DX1_processed",
     "PATCH_SIZE": 2048,
     "LEVEL": 0,
-    "REFERENCE_IMAGE_PATH": "Project_Plemorfismo/Pleomorfismo/testA_35.bmp",
+    "REFERENCE_IMAGE_PATH": "testA_35.bmp",
 
     "HOVERNET_PYTHON": "/home/ricardo/anaconda3/envs/hovernet/bin/python",
     "HOVERNET_SCRIPT": "/home/ricardo/hover_net/run_infer.py",
     "HOVERNET_MODEL": "/home/ricardo/hover_net/hovernet_fast_pannuke_type_tf2pytorch.tar",
     "HOVERNET_TYPE_INFO": "/home/ricardo/hover_net/type_info.json",
 
-    "HOVERNET_INPUT_DIR": "/media/ricardo/Datos/Project_Plemorfismo/pipeline/",
-    "HOVERNET_OUTPUT_DIR": "/media/ricardo/Datos/Project_Plemorfismo/pipeline/masks/",
+    "HOVERNET_INPUT_DIR": "data/images_processed/DX1_processed/",
+    "HOVERNET_OUTPUT_DIR": "data_processed/nuclei/",
 
     "CUDA_DEVICE": "0",
     "BATCH_SIZE": 1,

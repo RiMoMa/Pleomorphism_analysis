@@ -10,20 +10,38 @@ from staintools.tissue_masks.luminosity_threshold_tissue_locator import Luminosi
 
 from tqdm import tqdm
 import subprocess
-
+import json
 
 # ===========================
-# CONFIGURACIÓN GENERAL
+# CARGAR CONFIGURACIÓN DESDE JSON
 # ===========================
-INPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/data/images/DX1_svs"
-OUTPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/data/images_processed/DX1_processed"
-PATCH_SIZE = 512 * 4  # Ajustar según la memoria disponible
-LEVEL = 0  # Nivel de resolución del WSI
-REFERENCE_IMAGE_PATH = "/media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/testA_35.bmp"
+config_path = "config.json"
+if not os.path.exists(config_path):
+    raise FileNotFoundError(f"❌ No se encontró {config_path}. Asegúrate de definirlo correctamente.")
 
+with open(config_path, "r") as f:
+    config = json.load(f)
 
-HOVERNET_INPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/pipeline/"
-HOVERNET_OUTPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/pipeline/masks/"
+# Asignar variables desde JSON
+INPUT_DIR = config["INPUT_DIR"]
+OUTPUT_DIR = config["OUTPUT_DIR"]
+PATCH_SIZE = config["PATCH_SIZE"]
+LEVEL = config["LEVEL"]
+REFERENCE_IMAGE_PATH = config["REFERENCE_IMAGE_PATH"]
+
+HOVERNET_PYTHON = config["HOVERNET_PYTHON"]
+HOVERNET_SCRIPT = config["HOVERNET_SCRIPT"]
+HOVERNET_MODEL = config["HOVERNET_MODEL"]
+HOVERNET_TYPE_INFO = config["HOVERNET_TYPE_INFO"]
+
+HOVERNET_INPUT_DIR = config["HOVERNET_INPUT_DIR"]
+HOVERNET_OUTPUT_DIR = config["HOVERNET_OUTPUT_DIR"]
+
+CUDA_DEVICE = config["CUDA_DEVICE"]
+BATCH_SIZE = config["BATCH_SIZE"]
+NR_INFERENCE_WORKERS = config["NR_INFERENCE_WORKERS"]
+NR_POST_PROC_WORKERS = config["NR_POST_PROC_WORKERS"]
+MEM_USAGE = config["MEM_USAGE"]
 # ===========================
 # FUNCIÓN PARA DETECTAR TEJIDO
 # ===========================
@@ -134,19 +152,12 @@ for svs_file in svs_files:
     # ===========================
     print(f"🚀 Ejecutando HoverNet para {svs_name} en segundo plano...")
 
-    # Definir rutas
-    HOVERNET_PYTHON = "/home/ricardo/anaconda3/envs/hovernet/bin/python"
-    HOVERNET_SCRIPT = "/home/ricardo/hover_net/run_infer.py"
-    HOVERNET_MODEL = "/home/ricardo/hover_net/hovernet_fast_pannuke_type_tf2pytorch.tar"
-    HOVERNET_TYPE_INFO = "/home/ricardo/hover_net/type_info.json"
-    # Ruta de entrada y salida
-    INPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/data/images_processed/DX1_processed/"
-    OUTPUT_DIR = "/home/ricardo/Documentos/pipeline/masks/"
+
+
 
     # Nombre del caso
-    svs_name = "TCGA-BH-A1ET-01Z-00-DX1.05C126CD-CC10-44BF-9A68-6CDDE97272B2"
-    input_case_dir = os.path.join(INPUT_DIR, svs_name)
-    output_case_dir = os.path.join(OUTPUT_DIR, svs_name)
+    input_case_dir = os.path.join(HOVERNET_INPUT_DIR, svs_name)
+    output_case_dir = os.path.join(HOVERNET_OUTPUT_DIR, svs_name)
 
     # Verificar si el script existe
     if not os.path.exists(HOVERNET_SCRIPT):
