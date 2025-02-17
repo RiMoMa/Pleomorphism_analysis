@@ -139,7 +139,6 @@ for svs_file in svs_files:
     HOVERNET_SCRIPT = "/home/ricardo/hover_net/run_infer.py"
     HOVERNET_MODEL = "/home/ricardo/hover_net/hovernet_fast_pannuke_type_tf2pytorch.tar"
     HOVERNET_TYPE_INFO = "/home/ricardo/hover_net/type_info.json"
-
     # Ruta de entrada y salida
     INPUT_DIR = "/media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/data/images_processed/DX1_processed/"
     OUTPUT_DIR = "/home/ricardo/Documentos/pipeline/masks/"
