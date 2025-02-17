@@ -136,7 +136,7 @@ for svs_file in svs_files:
             if tiene_tejido_staintools(patch, PATCH_SIZE ** 2 * 0.15):
                 try:
                     norm_patch = vahadane_normalizer.transform(patch)
-                except staintools.miscellaneous.exceptions.TissueMaskException:
+                except:
                     norm_patch = patch  # Mantener el parche sin cambios
             else:
                 norm_patch = patch  # Mantener fondo sin cambios
