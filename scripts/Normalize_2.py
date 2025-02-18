@@ -136,6 +136,9 @@ for svs_file in svs_files:
     # ===========================
     # LLAMAR A HOVERNET PARA DETECCIÓN DE NÚCLEOS (Opcional)
     # ===========================
+
+
+
     if ENABLE_NUCLEI_DETECTION:
         print(f"🚀 Ejecutando HoverNet para {svs_name}...")
 
@@ -160,7 +163,15 @@ for svs_file in svs_files:
             "--save_qupath"
         ]
 
-        subprocess.Popen(hovernet_command)
+        # Ejecutar HoverNet y esperar a que termine
+        result = subprocess.run(hovernet_command, capture_output=True, text=True)
+
+        if result.returncode == 0:
+            print(f"✅ HoverNet finalizado correctamente para {svs_name}.")
+        else:
+            print(f"❌ Error en HoverNet para {svs_name}. Código de salida: {result.returncode}")
+            print(result.stderr)
+
     else:
         print("🛑 Detección de núcleos deshabilitada...")
 
