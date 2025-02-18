@@ -198,39 +198,40 @@ for svs_file in svs_files:
     print(f"🔄 Reconstruyendo {svs_name}...")
 
     reconstructed_image = np.zeros((height, width, 3), dtype=np.uint8)
+    if not os.path.exists(SVS_OUTPUT_PATH):
+        for filename in tqdm(sorted(os.listdir(svs_output_dir)), desc=f"🧩 {svs_name} - Reconstrucción"):
+            if filename.endswith(".png"):
+                parts = filename.split("_")
+                x, y = int(parts[1]), int(parts[2].split(".")[0])
 
-    for filename in tqdm(sorted(os.listdir(svs_output_dir)), desc=f"🧩 {svs_name} - Reconstrucción"):
-        if filename.endswith(".png"):
-            parts = filename.split("_")
-            x, y = int(parts[1]), int(parts[2].split(".")[0])
+                patch = cv2.imread(os.path.join(svs_output_dir, filename))
+                patch = cv2.cvtColor(patch, cv2.COLOR_BGR2RGB)
 
-            patch = cv2.imread(os.path.join(svs_output_dir, filename))
-            patch = cv2.cvtColor(patch, cv2.COLOR_BGR2RGB)
+                end_x = x + PATCH_SIZE
+                end_y = y + PATCH_SIZE
 
-            end_x = x + PATCH_SIZE
-            end_y = y + PATCH_SIZE
+                if end_x > width:
+                    patch = patch[:, :width - x, :]
+                if end_y > height:
+                    patch = patch[:height - y, :, :]
 
-            if end_x > width:
-                patch = patch[:, :width - x, :]
-            if end_y > height:
-                patch = patch[:height - y, :, :]
+                reconstructed_image[y:y+patch.shape[0], x:x+patch.shape[1], :] = patch
 
-            reconstructed_image[y:y+patch.shape[0], x:x+patch.shape[1], :] = patch
+        Image.fromarray(reconstructed_image).save(RECONSTRUCTED_PATH, format="TIFF", compression="tiff_lzw")
+        print(f"✅ Reconstrucción completada. Imagen guardada en {RECONSTRUCTED_PATH}")
 
-    Image.fromarray(reconstructed_image).save(RECONSTRUCTED_PATH, format="TIFF", compression="tiff_lzw")
-    print(f"✅ Reconstrucción completada. Imagen guardada en {RECONSTRUCTED_PATH}")
+        # ===========================
+        # CONVERSIÓN DE TIFF A SVS Y ELIMINACIÓN DEL TIFF
+        # ===========================
+        print(f"🔄 Convirtiendo {svs_name} a SVS...")
 
-    # ===========================
-    # CONVERSIÓN DE TIFF A SVS Y ELIMINACIÓN DEL TIFF
-    # ===========================
-    print(f"🔄 Convirtiendo {svs_name} a SVS...")
+        os.system(f"vips tiffsave {RECONSTRUCTED_PATH} {SVS_OUTPUT_PATH} --compression=jpeg --tile --tile-width=512 --tile-height=512 --pyramid")
 
-    os.system(f"vips tiffsave {RECONSTRUCTED_PATH} {SVS_OUTPUT_PATH} --compression=jpeg --tile --tile-width=512 --tile-height=512 --pyramid")
-
-    if os.path.exists(SVS_OUTPUT_PATH):
-        os.remove(RECONSTRUCTED_PATH)
-        print(f"✅ {svs_name}.svs generado y TIFF eliminado.")
+        if os.path.exists(SVS_OUTPUT_PATH):
+            os.remove(RECONSTRUCTED_PATH)
+            print(f"✅ {svs_name}.svs generado y TIFF eliminado.")
+        else:
+            print(f"⚠️ Error en la conversión de {svs_name}. El archivo TIFF no ha sido eliminado.")
     else:
-        print(f"⚠️ Error en la conversión de {svs_name}. El archivo TIFF no ha sido eliminado.")
-
+        print('ya existe: ',SVS_OUTPUT_PATH)
 print("✅ Todos los SVS han sido procesados correctamente.")
