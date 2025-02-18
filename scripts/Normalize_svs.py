@@ -132,8 +132,8 @@ for svs_file in svs_files:
 
             patch = slide.read_region((x, y), LEVEL, (PATCH_SIZE, PATCH_SIZE)).convert("RGB")
             patch = np.array(patch)
-
-            if tiene_tejido_staintools(patch, PATCH_SIZE ** 2 * 0.15):
+            is_white = np.sum(patch.ravel() < 220) / len(patch.ravel()) > 0.8
+            if tiene_tejido_staintools(patch, PATCH_SIZE ** 2 * 0.15) and is_white:
                 try:
                     norm_patch = vahadane_normalizer.transform(patch)
                 except:
