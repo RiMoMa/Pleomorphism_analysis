@@ -113,7 +113,7 @@ for svs_file in svs_files:
             patch_filename = os.path.join(svs_output_dir, f"patch_{x}_{y}.png")
             if os.path.exists(patch_filename):
                 continue
-
+            print('o1')
             patch = slide.read_region((x, y), LEVEL, (PATCH_SIZE, PATCH_SIZE)).convert("RGB")
             patch = np.array(patch)
 
@@ -131,8 +131,14 @@ for svs_file in svs_files:
                 input_case_dir = os.path.join(HOVERNET_INPUT_DIR, svs_name)
                 output_case_dir = os.path.join(HOVERNET_OUTPUT_DIR, svs_name)
                 os.makedirs(output_case_dir, exist_ok=True)
-                print(f"🚀 Ejecutando Startdist para {svs_name}...")
+                output_path = os.path.join(output_case_dir, f'patch_{x}_{y}_inst_map.png')
+                if os.path.exists(output_path):
+                    continue
+
+             #   print(f"🚀 Ejecutando Startdist para {svs_name}...")
+                print('sal')
                 labels, _ = model.predict_instances(normalize(norm_patch))
+                print('sal2')
                 np.save(os.path.join(output_case_dir, f'patch_{x}_{y}_inst_map.npy'), labels)
                 #plt.imsave(os.path.join(output_case_dir, f'{os.path.splitext(svs_name)[0]}_inst_map.png'), labels,
                 #           cmap='jet')
@@ -149,7 +155,6 @@ for svs_file in svs_files:
                     ax.plot(contour[:, 1], contour[:, 0], linewidth=0.4, color='#52f212')
 
                 # Save the visualization
-                output_path = os.path.join(output_case_dir, f'patch_{x}_{y}_inst_map.png')
                 fig.savefig(output_path, bbox_inches='tight', dpi=300, transparent=True)
                 plt.close(fig)
 
