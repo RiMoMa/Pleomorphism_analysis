@@ -12,7 +12,7 @@ data/images/
 logs/
 data/
 data_processed/
-
+mlruns/
 # Excluir archivos de caché y dependencias de Python
 __pycache__/
 *.log
