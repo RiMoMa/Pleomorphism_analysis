@@ -2,6 +2,7 @@ import os
 import json
 import openslide
 from PIL import Image
+import time
 import cv2
 import numpy as np
 import subprocess
@@ -37,6 +38,37 @@ HOVERNET_OUTPUT_DIR = config["HOVERNET_OUTPUT_DIR"]
 # ===========================
 # FUNCIÓN PARA DETECTAR TEJIDO
 # ===========================
+
+
+def detect_histological_tissue(img, intensity_threshold=200, var_threshold=500, saturation_threshold=20):
+    """
+    Detecta si un parche tiene tejido histológico basado en:
+    1. Intensidad media en escala de grises.
+    2. Varianza de píxeles.
+    3. Porcentaje de píxeles con saturación significativa en el espacio HSV.
+    """
+    # Cargar imagen
+
+    if img is None:
+        print(f"Error: No se pudo cargar la imagen {image_path}")
+        return False
+
+    # Convertir a escala de grises y calcular intensidad media
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    mean_intensity = np.mean(gray)
+
+    # Calcular varianza
+    variance = np.var(gray)
+
+    # Convertir a HSV y analizar saturación
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    saturation = hsv[:, :, 1]
+    percentage_saturated = np.mean(saturation > saturation_threshold) * 100  # Porcentaje de píxeles con color
+
+    # Criterios de detección de tejido
+    is_tissue = (mean_intensity < intensity_threshold) and (variance > var_threshold) and (percentage_saturated > 5)
+
+    return is_tissue
 def tiene_tejido_staintools(patch, umbral_pixeles=5000):
     try:
         mask = LuminosityThresholdTissueLocator.get_tissue_mask(patch)
@@ -107,17 +139,21 @@ for svs_file in svs_files:
         vahadane_normalizer.fit(reference_image)
     else:
         print("🛑 Normalización deshabilitada...")
-
-    for y in tqdm(range(0, height, PATCH_SIZE), desc=f"📌 {svs_name} - Procesamiento"):
-        for x in range(0, width, PATCH_SIZE):
+    #1539 × 1376
+    for y in tqdm(range(0, height, 1376), desc=f"📌 {svs_name} - Procesamiento"):
+        for x in range(0, width, 1539):
             patch_filename = os.path.join(svs_output_dir, f"patch_{x}_{y}.png")
+
+
             if os.path.exists(patch_filename):
                 continue
-            print('o1')
-            patch = slide.read_region((x, y), LEVEL, (PATCH_SIZE, PATCH_SIZE)).convert("RGB")
+            patch = slide.read_region((x, y), LEVEL, (1539, 1376)).convert("RGB")
             patch = np.array(patch)
 
-            if ENABLE_NORMALIZATION and tiene_tejido_staintools(patch, PATCH_SIZE ** 2 * 0.15):
+            if not detect_histological_tissue(patch):
+                continue
+
+            if ENABLE_NORMALIZATION :
                 try:
                     norm_patch = vahadane_normalizer.transform(patch)
                 except:
@@ -136,9 +172,8 @@ for svs_file in svs_files:
                     continue
 
              #   print(f"🚀 Ejecutando Startdist para {svs_name}...")
-                print('sal')
                 labels, _ = model.predict_instances(normalize(norm_patch))
-                print('sal2')
+                time.sleep(0.5)  # Espera 0.5 segundos
                 np.save(os.path.join(output_case_dir, f'patch_{x}_{y}_inst_map.npy'), labels)
                 #plt.imsave(os.path.join(output_case_dir, f'{os.path.splitext(svs_name)[0]}_inst_map.png'), labels,
                 #           cmap='jet')

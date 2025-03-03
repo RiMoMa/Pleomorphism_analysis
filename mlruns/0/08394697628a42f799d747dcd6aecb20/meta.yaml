@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/08394697628a42f799d747dcd6aecb20/artifacts
+end_time: 1740415283306
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08394697628a42f799d747dcd6aecb20
+run_name: fearless-penguin-75
+run_uuid: 08394697628a42f799d747dcd6aecb20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740415268533
+status: 3
+tags: []
+user_id: ricardo

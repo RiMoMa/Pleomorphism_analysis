@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/f97d65ad173c4cd08ce27ffe90724dba/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f97d65ad173c4cd08ce27ffe90724dba
+run_name: upset-turtle-196
+run_uuid: f97d65ad173c4cd08ce27ffe90724dba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740170172886
+status: 1
+tags: []
+user_id: ricardo

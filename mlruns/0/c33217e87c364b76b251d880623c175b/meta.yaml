@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/c33217e87c364b76b251d880623c175b/artifacts
+end_time: 1740242689235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c33217e87c364b76b251d880623c175b
+run_name: abundant-gull-661
+run_uuid: c33217e87c364b76b251d880623c175b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740242061741
+status: 4
+tags: []
+user_id: ricardo

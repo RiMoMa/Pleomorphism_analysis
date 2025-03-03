@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/d8ac664c3d37401a89a7941c5ea418b0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8ac664c3d37401a89a7941c5ea418b0
+run_name: persistent-newt-706
+run_uuid: d8ac664c3d37401a89a7941c5ea418b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740414673805
+status: 1
+tags: []
+user_id: ricardo

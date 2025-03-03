@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/e9af1bad84d7479d804b1acbc26910b3/artifacts
+end_time: 1740178719200
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9af1bad84d7479d804b1acbc26910b3
+run_name: gifted-wasp-767
+run_uuid: e9af1bad84d7479d804b1acbc26910b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740178352138
+status: 4
+tags: []
+user_id: ricardo

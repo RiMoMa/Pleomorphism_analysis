@@ -1,0 +1,15 @@
+artifact_uri: /media/ricardo/Datos/Project_Plemorfismo/Pleomorfismo/mlruns/0/bae5c354c4ba434ca4fb6d67edea73ae/artifacts
+end_time: 1740170131682
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bae5c354c4ba434ca4fb6d67edea73ae
+run_name: clean-skunk-125
+run_uuid: bae5c354c4ba434ca4fb6d67edea73ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740170021685
+status: 4
+tags: []
+user_id: ricardo
